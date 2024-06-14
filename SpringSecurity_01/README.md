@@ -1,4 +1,8 @@
-# Spring Security
+# Spring Security App -- Version #1
+
+## Scope
+* Create a basic Spring boot app using Spring Security module.
+* All API access needs to be authenticated using credentials configured in application.properties file.
 
 ## Reference
 * **[Spring Security Architecture | spring.io](https://docs.spring.io/spring-security/reference/servlet/architecture.html)**
