@@ -11,7 +11,7 @@
     <groupId>com.navr.springsec</groupId>
     <artifactId>SpringSecurity_02</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringSecurity_01</name>
+    <name>SpringSecurity_02</name>
     <description>Demo project for Spring Boot Security</description>
     <properties>
         <java.version>17</java.version>
