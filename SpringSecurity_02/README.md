@@ -1,4 +1,8 @@
-# Spring Security
+# Spring Security App -- Version #2
+
+## Scope
+* Create a separate config for SecurityFilterChain and permit access to some URLs with auth and some without auth.
+* It is still a single user based authentication, as configured in application.properties file. 
 
 ## Reference
 * **[Spring Security Architecture | spring.io](https://docs.spring.io/spring-security/reference/servlet/architecture.html)**
