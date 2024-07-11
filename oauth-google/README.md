@@ -24,3 +24,9 @@
 * http://localhost:8080/oauth-google/user
 
 ### Google Sign-In Demo App - Screenshots
+* <img src="https://github.com/navrwork/spring-security/assets/149756645/b630ad1a-aca6-4733-bea6-a5d25529f6b2" height="240" width="720" />
+* <img src="https://github.com/navrwork/spring-security/assets/149756645/f1768918-8c3f-4f02-a1a8-d58625f3ee7c" height="120" width="720" />
+* <img src="https://github.com/navrwork/spring-security/assets/149756645/1eb88386-16a3-4ddf-9983-451ac7ba8338" height="360" width="720" />
+
+
+
