@@ -5,6 +5,6 @@ spring:
         registration:
           google:
             clientId: 51464557088-qjumn7h4vfv51h7nd0klpvtvqvp2ll3q.apps.googleusercontent.com
-            clientSecret: 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
+            clientSecret: <<Get client secret from https://console.cloud.google.com/>>
 server:
   port: 8080
