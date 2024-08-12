@@ -8,10 +8,10 @@
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.navr.oauth.googlelogin</groupId>
-	<artifactId>oauth-google</artifactId>
+	<groupId>com.navr.oauthclient.demo</groupId>
+	<artifactId>oauth-client-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>oauth-google</name>
+	<name>oauth-client-demo</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

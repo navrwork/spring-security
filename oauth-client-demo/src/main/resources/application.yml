@@ -1,0 +1,24 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 51464557088-qjumn7h4vfv51h7nd0klpvtvqvp2ll3q.apps.googleusercontent.com
+            clientSecret: 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
+          linkedin:
+            clientId: 86b7auq6otn1xr
+            clientSecret: YGZ1l4ALCeISEMYA
+            authorizationGrantType: authorization_code
+            redirectUri: "http://localhost:8080/auth/linkedin/callback"
+            scope: openid, profile, email
+            clientName: LinkedIn
+            clientUrl: "http://localhost:8080/oauth-client-demo/welcome"
+        provider:
+          linkedin:
+            authorization-uri: https://www.linkedin.com/oauth/v2/authorization
+            token-uri: https://www.linkedin.com/oauth/v2/accessToken
+            user-info-uri: https://api.linkedin.com/v1/people/~?format=json
+            user-name-attribute: id
+server:
+  port: 8080

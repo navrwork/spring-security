@@ -1,5 +1,6 @@
-package com.navr.oauth.googlelogin.config;
+package com.navr.oauthclient.demo.config;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -10,11 +11,16 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class AppSecurityConfig {
 
+    @Bean
     public SecurityFilterChain configure(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.authorizeHttpRequests(
                         (req) -> req
-                                .requestMatchers("/welcome").permitAll()
-                                .anyRequest().authenticated())
+//                                .requestMatchers("/user")
+//                                .authenticated()
+//                                .requestMatchers("/welcome")
+//                                .permitAll() // no auth for these requests
+                                .anyRequest().authenticated()
+                )
                 .oauth2Login(Customizer.withDefaults());
         return httpSecurity.build();
     }
