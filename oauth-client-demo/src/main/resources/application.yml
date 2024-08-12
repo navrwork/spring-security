@@ -5,10 +5,10 @@ spring:
         registration:
           google:
             clientId: 51464557088-qjumn7h4vfv51h7nd0klpvtvqvp2ll3q.apps.googleusercontent.com
-            clientSecret: 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
+            clientSecret: ...
           linkedin:
             clientId: 86b7auq6otn1xr
-            clientSecret: YGZ1l4ALCeISEMYA
+            clientSecret: ...
             authorizationGrantType: authorization_code
             redirectUri: "http://localhost:8080/auth/linkedin/callback"
             scope: openid, profile, email
